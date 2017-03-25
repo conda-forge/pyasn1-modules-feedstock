@@ -11,6 +11,18 @@ Summary: A collection of ASN.1-based protocols modules.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyasn1-modules-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyasn1-modules-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyasn1-modules-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyasn1-modules-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyasn1-modules-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyasn1-modules-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyasn1-modules/badges/version.svg)](https://anaconda.org/conda-forge/pyasn1-modules)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyasn1-modules/badges/downloads.svg)](https://anaconda.org/conda-forge/pyasn1-modules)
+
 Installing pyasn1-modules
 =========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pyasn1-modules` available on your
 ```
 conda search pyasn1-modules --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyasn1-modules-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyasn1-modules-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyasn1-modules-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyasn1-modules-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyasn1-modules-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyasn1-modules-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyasn1-modules/badges/version.svg)](https://anaconda.org/conda-forge/pyasn1-modules)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyasn1-modules/badges/downloads.svg)](https://anaconda.org/conda-forge/pyasn1-modules)
 
 
 Updating pyasn1-modules-feedstock
