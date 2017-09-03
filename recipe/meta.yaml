@@ -23,19 +23,20 @@ requirements:
 
   run:
     - python
-    - pyasn1 >=0.1.8
+    - pyasn1 ==0.3.3
 
 test:
   imports:
     - pyasn1_modules
 
 about:
-  home: https://github.com/etingof/pyasn1
+  home: http://pyasn1.sourceforge.net/
   license_file: LICENSE.txt
   license: BSD 2-Clause
   license_family: BSD
   summary: A collection of ASN.1-based protocols modules.
-  dev_url: https://github.com/etingof/pyasn1
+  dev_url: https://github.com/etingof/pyasn1-modules
+  doc_url: http://pyasn1.sourceforge.net/
 
 extra:
   recipe-maintainers:
