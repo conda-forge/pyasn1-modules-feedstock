@@ -1,6 +1,6 @@
 {% set name = "pyasn1-modules" %}
-{% set version = "0.0.9" %}
-{% set sha256 = "be0e4157e4a53551279d6c6e366b080527f5fd068616835b4abf32c14f657f5f" %}
+{% set version = "0.1.1" %}
+{% set sha256 = "017b6a20725c79f1329e9f446d90ebbeab9d9b322bde0c26d46840b367fb915d" %}
 {% set build = 0 %}
 
 package:
