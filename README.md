@@ -1,7 +1,7 @@
 About pyasn1-modules
 ====================
 
-Home: http://sourceforge.net/projects/pyasn1/
+Home: http://pyasn1.sourceforge.net/
 
 Package license: BSD 2-Clause
 
