@@ -14,9 +14,7 @@ Summary: A collection of ASN.1-based protocols modules.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyasn1-modules-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyasn1-modules-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyasn1-modules-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyasn1-modules-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyasn1-modules-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyasn1-modules-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pyasn1-modules-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyasn1-modules-feedstock)
 
 Current release info
 ====================
