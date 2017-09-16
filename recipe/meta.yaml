@@ -1,6 +1,7 @@
 {% set name = "pyasn1-modules" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "017b6a20725c79f1329e9f446d90ebbeab9d9b322bde0c26d46840b367fb915d" %}
+{% set version = "0.1.4" %}
+{% set bundle = "tar.gz" %}
+{% set sha256 = "b07c17bdb34d6f64aafea6269f2e8fb306a57473f0f38d9a6ca389d6ab30ac4a" %}
 {% set build = 0 %}
 
 package:
@@ -8,11 +9,12 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  fn: {{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
@@ -23,7 +25,7 @@ requirements:
 
   run:
     - python
-    - pyasn1 ==0.3.3
+    - pyasn1 >=0.3.4,<0.4.0
 
 test:
   imports:
