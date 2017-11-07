@@ -1,7 +1,7 @@
 {% set name = "pyasn1-modules" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 {% set bundle = "tar.gz" %}
-{% set sha256 = "b07c17bdb34d6f64aafea6269f2e8fb306a57473f0f38d9a6ca389d6ab30ac4a" %}
+{% set sha256 = "1d303eed5aa54cafeca209d16b8c7ea2c6064735fb61f1bee2e0ed63a0816988" %}
 {% set build = 0 %}
 
 package:
