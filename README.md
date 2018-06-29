@@ -14,12 +14,15 @@ Summary: A collection of ASN.1-based protocols modules.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pyasn1-modules-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyasn1-modules-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyasn1-modules-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyasn1-modules-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyasn1-modules/badges/version.svg)](https://anaconda.org/conda-forge/pyasn1-modules)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyasn1-modules/badges/downloads.svg)](https://anaconda.org/conda-forge/pyasn1-modules)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyasn1--modules-green.svg)](https://anaconda.org/conda-forge/pyasn1-modules) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyasn1-modules.svg)](https://anaconda.org/conda-forge/pyasn1-modules) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyasn1-modules.svg)](https://anaconda.org/conda-forge/pyasn1-modules) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyasn1-modules.svg)](https://anaconda.org/conda-forge/pyasn1-modules) |
 
 Installing pyasn1-modules
 =========================
