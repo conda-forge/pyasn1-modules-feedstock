@@ -1,7 +1,7 @@
 {% set name = "pyasn1-modules" %}
-{% set version = "0.2.7" %}
+{% set version = "0.3.0" %}
 {% set bundle = "tar.gz" %}
-{% set sha256 = "0c35a52e00b672f832e5846826f1fb7507907f7d52fba6faa9e3c4cbe874fe4b" %}
+{% set sha256 = "5bd01446b736eb9d31512a30d46c1ac3395d676c6f3cafa4c03eb54b9925631c" %}
 {% set build = 0 %}
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.{{ bundle }}
   sha256: {{ sha256 }}
 
 build:
@@ -19,7 +19,7 @@ build:
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
 
