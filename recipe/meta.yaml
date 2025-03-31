@@ -1,5 +1,5 @@
 {% set name = "pyasn1-modules" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyasn1_modules-{{ version }}.tar.gz
-  sha256: c28e2dbf9c06ad61c71a075c7e0f9fd0f1b0bb2d2ad4377f240d33ac2ab60a7c
+  sha256: 677091de870a80aae844b1ca6134f54652fa2c8c5a52aa396440ac3106e941e6
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -20,7 +20,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - pyasn1 >=0.4.6,<0.7.0
+    - pyasn1 >=0.6.1,<0.7.0
     - python >={{ python_min }}
 
 test:
