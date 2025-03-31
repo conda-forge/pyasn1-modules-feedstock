@@ -20,7 +20,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - pyasn1 >=0.4.6,<0.7.0
+    - pyasn1 >=0.6.1,<0.7.0
     - python >={{ python_min }}
 
 test:
